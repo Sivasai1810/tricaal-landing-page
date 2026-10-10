@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tricaal — Your Business. On Autopilot.</title>
+  <meta name="description" content="Tricaal connects WhatsApp, AI voice agents, and your business tools into affordable, speed-optimized workflows that handle repetitive work and help your team respond faster." />
+  <meta name="theme-color" content="#f7f8f3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=11" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111613'/%3E%3Ccircle cx='9' cy='16' r='3.5' fill='%23B8F36B'/%3E%3Ccircle cx='23' cy='9' r='3.5' fill='%23B8F36B'/%3E%3Ccircle cx='23' cy='23' r='3.5' fill='%23B8F36B'/%3E%3Cpath d='M12 15l8-5M12 17l8 5' stroke='%23B8F36B' stroke-width='2'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="Tricaal home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><circle cx="9" cy="16" r="3.5"/><circle cx="23" cy="9" r="3.5"/><circle cx="23" cy="23" r="3.5"/><path d="M12 15l8-5M12 17l8 5"/></svg>
+        </span>
+        Tricaal
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#services">Solutions</a>
+        <a href="#industries">Industries</a>
+        <a href="#how">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#audit" class="btn btn--primary btn--sm nav__cta">Book a Demo</a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="#services">Solutions</a>
+      <a href="#industries">Industries</a>
+      <a href="#how">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#audit" class="btn btn--primary">Book a Demo</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ 01 HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="dot dot--live"></span>WhatsApp · Voice AI · Workflow automation</p>
+          <h1>Your Business.<br /><span class="accent">On Autopilot.</span></h1>
+          <p class="lead">We connect WhatsApp, AI voice agents, and the tools your team already uses into affordable, speed-optimized workflows that handle repetitive work and help you respond faster.</p>
+          <p class="hero__sub">Spend less time on manual work. Respond faster. Focus on growing your business.</p>
+          <div class="hero__ctas">
+            <a href="#audit" class="btn btn--primary">Automate My Business <span aria-hidden="true">→</span></a>
+            <a href="#demo" class="btn btn--ghost">See How It Works</a>
+          </div>
+          <ul class="hero__chips" aria-label="What we build">
+            <li><strong>WhatsApp AI</strong> Conversations to actions</li>
+            <li><strong>Voice agents</strong> Calls handled intelligently</li>
+            <li><strong>Workflow AI</strong> Repetitive work automated</li>
+          </ul>
+        </div>
+
+        <!-- Hero visual: animated pipeline -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="console">
+            <div class="console__bar">
+              <span class="console__dots"><i></i><i></i><i></i></span>
+              <span class="mono">workflow · whatsapp-booking</span>
+              <span class="pill pill--live"><span class="dot dot--live"></span>running</span>
+            </div>
+            <div class="console__body">
+              <div class="bubble bubble--in hv" style="--d:0">
+                <span class="bubble__meta">WhatsApp · +91 •••• 4821</span>
+                Hi! Can I book a cleaning for Saturday morning?
+              </div>
+              <div class="pipeline">
+                <div class="node hv" style="--d:1"><span class="node__icon">◎</span><div><b>Intent detected</b><small>booking · service: cleaning</small></div></div>
+                <div class="node hv" style="--d:2"><span class="node__icon">▦</span><div><b>Calendar checked</b><small>Sat 10:00 · 11:30 available</small></div></div>
+                <div class="node hv" style="--d:3"><span class="node__icon">✓</span><div><b>Booked after confirmation</b><small>Sat 10:00 · CRM updated</small></div></div>
+              </div>
+              <div class="bubble bubble--out hv" style="--d:4">
+                You're booked for Sat 10:00 AM ✅ We'll send a reminder the day before.
+              </div>
+            </div>
+          </div>
+          <div class="float-card float-card--a">
+            <span class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <div><b>Voice agent</b><small>Call summary sent to team</small></div>
+          </div>
+          <div class="float-card float-card--b">
+            <span class="node__icon node__icon--sm">↗</span>
+            <div><b>Lead assigned</b><small>Owner: Priya · follow-up Tue</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTEXT STRIP ============ -->
+    <section class="strip">
+      <div class="container strip__inner">
+        <p class="strip__kicker mono">From customer contact to completed task</p>
+        <p class="strip__text">Your customers shouldn't have to wait for a response. Your team shouldn't have to repeat the same tasks every day. We connect customer conversations and business workflows so routine work happens automatically — <span class="accent">with the right checks and human support when needed.</span></p>
+      </div>
+    </section>
+
+    <!-- ============ 02 WORKFLOW DEMO ============ -->
+    <section class="section" id="demo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">See it work</p>
+          <h2>Watch a workflow run, from trigger to result.</h2>
+          <p class="section__lead">Pick a scenario. Every step is something we design, connect, and test for your business.</p>
+        </div>
+
+        <div class="demo">
+          <div class="demo__tabs" role="tablist" aria-label="Demo scenarios">
+            <button role="tab" class="tab is-active" data-scenario="whatsapp" aria-selected="true">WhatsApp booking</button>
+            <button role="tab" class="tab" data-scenario="voice" aria-selected="false">Missed call → lead</button>
+            <button role="tab" class="tab" data-scenario="leads" aria-selected="false">Lead → customer</button>
+            <button role="tab" class="tab" data-scenario="support" aria-selected="false">Customer support</button>
+            <button role="tab" class="tab" data-scenario="ops" aria-selected="false">Internal operations</button>
+          </div>
+
+          <div class="demo__stage">
+            <div class="demo__steps">
+              <div class="demo__steps-head">
+                <span class="mono demo__label">Illustrative demo · not a live integration</span>
+                <button class="btn btn--ghost btn--sm" id="demo-replay" type="button">↻ Replay</button>
+              </div>
+              <ol class="steps" id="demo-steps"></ol>
+            </div>
+
+            <div class="demo__screen">
+              <div class="phone">
+                <div class="phone__head">
+                  <span class="phone__avatar" id="demo-avatar">T</span>
+                  <div><b id="demo-channel">WhatsApp</b><small id="demo-channel-sub">Tricaal assistant · online</small></div>
+                </div>
+                <div class="phone__feed" id="demo-feed" aria-live="polite"></div>
+              </div>
+              <a href="#audit" class="btn btn--primary demo__cta" id="demo-cta">Discuss this workflow <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 SERVICES ============ -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Core services</p>
+          <h2>Three ways we take repetitive work off your plate.</h2>
+        </div>
+
+        <div class="services">
+          <article class="service">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.1L4 20z"/><path d="M9 10h6M9 13h4"/></svg>
+            </div>
+            <p class="service__tag mono">A · WhatsApp Business Automation</p>
+            <h3>Turn every WhatsApp conversation into your next business action.</h3>
+            <ul class="checks">
+              <li>Answer common questions and route conversations</li>
+              <li>Capture and qualify leads; collect required details</li>
+              <li>Schedule appointments, send confirmations and reminders</li>
+              <li>Follow up using approved messaging rules</li>
+              <li>Update CRM records and notify your team</li>
+              <li>Escalate sensitive or complex questions to a human</li>
+            </ul>
+          </article>
+
+          <article class="service service--featured">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 11v2M21 12h0"/></svg>
+            </div>
+            <p class="service__tag mono">B · AI Voice Agents</p>
+            <h3>Every call answered. Every lead followed up.</h3>
+            <ul class="checks">
+              <li>Answer eligible inbound calls and common FAQs</li>
+              <li>Qualify leads and collect relevant details</li>
+              <li>Book appointments or create callback tasks</li>
+              <li>Permitted outbound follow-up calls, where legally appropriate</li>
+              <li>Call summaries and routing of complex cases to staff</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4a3 3 0 0 1 3 3V14"/></svg>
+            </div>
+            <p class="service__tag mono">C · End-to-End Business Automation</p>
+            <h3>Make your business tools work together automatically.</h3>
+            <ul class="checks">
+              <li>Lead capture, assignment, CRM updates, follow-up</li>
+              <li>Order, service, appointment and payment-status notifications</li>
+              <li>Document collection, data entry, information extraction</li>
+              <li>Connect calendars, forms, spreadsheets, CRMs, internal tools</li>
+              <li>Scheduled reports, internal alerts, operational dashboards</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 INDUSTRIES ============ -->
+    <section class="section" id="industries">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow">Industry use cases</p>
+            <h2>Built around how your industry actually works.</h2>
+          </div>
+          <p class="section__lead">Every business has different processes. We design automation around your workflow, your budget, and the tools you already use.</p>
+        </div>
+
+        <div class="industries">
+          <article class="industry">
+            <span class="industry__num mono">01</span>
+            <h3>Clinics &amp; healthcare</h3>
+            <p>Appointment booking, reminders, FAQs, and call routing.</p>
+            <p class="industry__note">Health information protected; clinical advice kept within approved boundaries.</p>
+          </article>
+          <article class="industry">
+            <span class="industry__num mono">02</span>
+            <h3>Real estate</h3>
+            <p>Property inquiries, lead qualification, viewing bookings, and follow-up.</p>
+          </article>
+          <article class="industry">
+            <span class="industry__num mono">03</span>
+            <h3>E-commerce</h3>
+            <p>Order updates, customer FAQs, returns routing, and support workflows.</p>
+          </article>
+          <article class="industry">
+            <span class="industry__num mono">04</span>
+            <h3>Agencies &amp; service firms</h3>
+            <p>Lead capture, client onboarding, document collection, and reports.</p>
+          </article>
+          <article class="industry">
+            <span class="industry__num mono">05</span>
+            <h3>Automotive &amp; local services</h3>
+            <p>Service bookings, reminders, inquiries, and job-status updates.</p>
+          </article>
+          <article class="industry">
+            <span class="industry__num mono">06</span>
+            <h3>Education &amp; training</h3>
+            <p>Course inquiries, admissions FAQs, appointment scheduling, and follow-up.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 HOW IT WORKS ============ -->
+    <section class="section section--alt" id="how">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">How it works</p>
+          <h2>Start with one workflow. Expand on measured value.</h2>
+        </div>
+
+        <ol class="process">
+          <li class="process__step">
+            <span class="process__num">1</span>
+            <h3>Discover</h3>
+            <p>We learn your process and find the repetitive tasks that cost the most time.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__num">2</span>
+            <h3>Map the workflow</h3>
+            <p>Triggers, steps, rules, and hand-off points — agreed with you before we build.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__num">3</span>
+            <h3>Build &amp; integrate</h3>
+            <p>Connect WhatsApp, calls, calendars, CRMs and internal tools you already use.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__num">4</span>
+            <h3>Test</h3>
+            <p>Run real scenarios against defined acceptance criteria and edge cases.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__num">5</span>
+            <h3>Monitor &amp; improve</h3>
+            <p>Track performance, catch errors early, and refine based on what we measure.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 06 COST & PERFORMANCE ============ -->
+    <section class="section" id="performance">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Cost &amp; performance</p>
+          <h2>Cost-efficient by design — not just cheap.</h2>
+          <p class="section__lead">Every promise is tied to a design choice you can see and a number we measure.</p>
+        </div>
+
+        <div class="pillars">
+          <div class="pillar"><h3>Speed-optimized</h3><p>Lean flows and efficient integrations. We measure response latency, completion time and bottlenecks.</p></div>
+          <div class="pillar"><h3>Cost-efficient</h3><p>Pilot first, right-sized models, no unnecessary calls — tracked as cost per completed task.</p></div>
+          <div class="pillar"><h3>Reliable</h3><p>Input validation, retries, monitoring, error alerts, and a safe human hand-off.</p></div>
+          <div class="pillar"><h3>Flexible</h3><p>We integrate your existing tools where practical, instead of replacing your stack.</p></div>
+          <div class="pillar"><h3>Scalable</h3><p>One workflow first, then expand based on the value it actually delivers.</p></div>
+        </div>
+
+        <div class="metrics">
+          <div class="metrics__head">
+            <h3>What we report on, every month</h3>
+            <p>Your dashboard shows measured numbers from your own workflows — never projections dressed up as results.</p>
+          </div>
+          <ul class="metrics__list">
+            <li><span class="mono">01</span>Average first-response time</li>
+            <li><span class="mono">02</span>Tasks completed without manual intervention</li>
+            <li><span class="mono">03</span>Cost per conversation, call, or workflow</li>
+            <li><span class="mono">04</span>Booking completion &amp; lead response rate</li>
+            <li><span class="mono">05</span>Failure, retry &amp; human-escalation rate</li>
+            <li><span class="mono">06</span>Estimated hours saved, assumptions stated</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 TRUST ============ -->
+    <section class="section section--alt" id="trust">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Trust &amp; reliability</p>
+          <h2>Automation you can rely on — and see inside.</h2>
+        </div>
+
+        <div class="trust">
+          <div class="trust__card">
+            <h3>Reliability controls</h3>
+            <ul class="checks">
+              <li>Input validation before any action is taken</li>
+              <li>Automatic retries and error alerts</li>
+              <li>Logs for every conversation, call, and task</li>
+              <li>Fallback paths when a tool is unavailable</li>
+            </ul>
+          </div>
+          <div class="trust__card">
+            <h3>Human in the loop</h3>
+            <ul class="checks">
+              <li>Clear escalation rules for sensitive requests</li>
+              <li>Clarifying questions when the AI is unsure</li>
+              <li>Instant hand-off to your team, with full context</li>
+              <li>Defined support and escalation arrangements</li>
+            </ul>
+          </div>
+          <div class="trust__card">
+            <h3>Data handling</h3>
+            <ul class="checks">
+              <li>Only the access each workflow needs</li>
+              <li>Data minimization and agreed retention</li>
+              <li>Consent and opt-out built into messaging and calls</li>
+              <li>Defined scope, acceptance criteria and exclusions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="honest">
+          <span class="honest__badge mono">Our promise</span>
+          <p>We won't promise 100% accuracy, zero human involvement, or guaranteed revenue. We will show you a working demo, tell you exactly what it costs to run, and measure what it delivers.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 PRICING ============ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Pricing approach</p>
+          <h2>Clear scope. Clear costs. No surprises.</h2>
+          <p class="section__lead">Every project is quoted after a free audit, so you only pay for what moves the needle.</p>
+        </div>
+
+        <div class="plans">
+          <article class="plan">
+            <h3>Starter workflow</h3>
+            <p class="plan__desc">One clearly scoped workflow to prove value fast.</p>
+            <ul class="checks">
+              <li>One workflow, end to end</li>
+              <li>Basic integrations</li>
+              <li>Testing and handover</li>
+              <li>Defined support period</li>
+            </ul>
+            <a href="#audit" class="btn btn--ghost" data-plan="Starter workflow">Start with one workflow</a>
+          </article>
+          <article class="plan plan--featured">
+            <span class="plan__badge mono">Most popular</span>
+            <h3>Business automation</h3>
+            <p class="plan__desc">Multiple connected workflows across your team.</p>
+            <ul class="checks">
+              <li>Multiple workflows</li>
+              <li>CRM and calendar integrations</li>
+              <li>Monitoring and reporting</li>
+              <li>Staff handover and training</li>
+            </ul>
+            <a href="#audit" class="btn btn--primary" data-plan="Business automation">Plan my automation</a>
+          </article>
+          <article class="plan">
+            <h3>Managed automation</h3>
+            <p class="plan__desc">We run, monitor and improve it for you.</p>
+            <ul class="checks">
+              <li>Ongoing monitoring</li>
+              <li>Continuous workflow improvements</li>
+              <li>Support and usage reporting</li>
+              <li>Agreed service levels</li>
+            </ul>
+            <a href="#audit" class="btn btn--ghost" data-plan="Managed automation">Talk about managed</a>
+          </article>
+        </div>
+
+        <p class="plans__note"><b>Recurring costs, explained upfront.</b> Implementation fees are quoted separately from recurring platform, AI model, telephony, WhatsApp messaging, and third-party charges. We tell you what's included, what's usage-based, and what happens when limits are reached.</p>
+      </div>
+    </section>
+
+    <!-- ============ 09 FAQ ============ -->
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head section__head--center">
+          <p class="eyebrow">FAQ</p>
+          <h2>Questions business owners ask us.</h2>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>What can you automate?</summary>
+            <p>Common examples: answering WhatsApp FAQs, booking appointments, qualifying leads, handling missed calls, sending reminders and status updates, updating CRMs and spreadsheets, collecting documents, and generating reports. What's feasible depends on the tools you use and the access they allow — we confirm this in the audit.</p>
+          </details>
+          <details>
+            <summary>Can you connect our current tools?</summary>
+            <p>Usually, yes. We work with your existing calendars, forms, spreadsheets, CRMs and internal tools wherever they offer a reliable way to connect. For anything less common, we run a short integration discovery first and tell you honestly whether it's practical.</p>
+          </details>
+          <details>
+            <summary>Will AI replace our staff?</summary>
+            <p>No. Automation handles routine, repetitive work so your team can focus on the conversations and decisions that need a person. Exceptions and sensitive requests are always handed off to a human.</p>
+          </details>
+          <details>
+            <summary>How much does it cost?</summary>
+            <p>It depends on scope. You'll get a one-time build fee for implementation, plus clearly itemized recurring costs — platform, AI model usage, telephony, WhatsApp messaging and any third-party services — and the support plan you choose. No hidden fees.</p>
+          </details>
+          <details>
+            <summary>How quickly can we launch?</summary>
+            <p>We give you a timeline once we understand the scope, have access to the tools involved, and know how complex the integrations and testing will be. Starting with a single workflow is the fastest way to go live.</p>
+          </details>
+          <details>
+            <summary>How do you keep it reliable?</summary>
+            <p>Testing against real scenarios before launch, input validation, monitoring, automatic retries, detailed logs, and fallback paths if something is unavailable. You'll get alerts and reports, not surprises.</p>
+          </details>
+          <details>
+            <summary>What happens if the AI is unsure?</summary>
+            <p>It follows the escalation rules we agree on with you: it can ask a clarifying question, or hand the conversation or call to your team along with a summary of what's been said so far.</p>
+          </details>
+          <details>
+            <summary>How is our data handled?</summary>
+            <p>Each workflow only gets the access it needs. We apply data minimization, agreed retention periods and access controls, and we'll tell you which third-party services process your data. Messaging and calls are designed around consent, opt-out and applicable platform and privacy rules.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 FINAL CTA / AUDIT FORM ============ -->
+    <section class="section cta" id="audit">
+      <div class="container cta__grid">
+        <div class="cta__copy">
+          <p class="eyebrow">Your first automation starts here</p>
+          <h2>Don't fill in a form. <span class="accent">Watch one automate itself.</span></h2>
+          <p class="lead">This contact flow is built the way we build for clients. A few taps, instant qualification, and a personalised automation snapshot before you've even spoken to us.</p>
+          <ul class="cta__list">
+            <li><span class="node__icon node__icon--sm">1</span>Tap what slows your team down</li>
+            <li><span class="node__icon node__icon--sm">2</span>Get your top opportunities, ranked instantly</li>
+            <li><span class="node__icon node__icon--sm">3</span>We follow up with a free audit and a working demo</li>
+          </ul>
+          <div class="cta__compare">
+            <div><span class="mono">Typical agency</span><b>Long contact form</b><small>then wait to hear if they can help</small></div>
+            <div class="is-us"><span class="mono">Tricaal</span><b>3 taps</b><small>and your snapshot is ready, live</small></div>
+          </div>
+        </div>
+
+        <div class="intake" id="intake">
+          <div class="intake__head">
+            <span class="phone__avatar">T</span>
+            <div class="intake__who"><b>Tricaal intake agent</b><small><span class="dot dot--live"></span> automating your request</small></div>
+            <span class="intake__timer mono" id="intake-timer" title="Time since your first tap">00.0s</span>
+          </div>
+          <div class="intake__progress" aria-hidden="true"><span id="intake-bar"></span></div>
+          <div class="intake__feed" id="intake-feed" aria-live="polite"></div>
+          <div class="intake__controls" id="intake-controls"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="brand">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><circle cx="9" cy="16" r="3.5"/><circle cx="23" cy="9" r="3.5"/><circle cx="23" cy="23" r="3.5"/><path d="M12 15l8-5M12 17l8 5"/></svg>
+          </span>
+          Tricaal
+        </a>
+        <p>WhatsApp automation, AI voice agents and end-to-end business workflows — built around the way your business operates.</p>
+        <a href="mailto:hello@tricaal.com" class="footer__mail">hello@tricaal.com</a>
+      </div>
+      <div class="footer__col">
+        <h4>Solutions</h4>
+        <a href="#services">WhatsApp automation</a>
+        <a href="#services">AI voice agents</a>
+        <a href="#services">Business workflows</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#audit">Book a demo</a>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of service</a>
+        <a href="#">Messaging &amp; call consent</a>
+      </div>
+    </div>
+    <div class="container footer__fine">
+      <p>Automated messaging and calls are designed around applicable consent, opt-out, platform, privacy and telemarketing rules. Workflows depend on third-party services (AI models, messaging, telephony, and integrations), which carry their own availability and usage charges.</p>
+      <p>© <span id="year">2026</span> Tricaal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js?v=11"></script>
+</body>
+</html>
